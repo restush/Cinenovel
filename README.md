@@ -1,5 +1,8 @@
 ## CINENOVEL (Unity Timeline for Naninovel)
 
+
+![](https://github.com/restush/Cinenovel/blob/resource-branch/Cinenovel-Preview1.0.gif)
+
 ### Usage
 
 Play a timeline.
