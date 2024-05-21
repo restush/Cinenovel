@@ -1,5 +1,6 @@
 ## CINENOVEL (Unity Timeline for Naninovel)
 
+![](https://github.com/restush/Cinenovel/blob/resource-branch/Screenshot%202024-05-22%20010305.png)
 
 ![](https://github.com/restush/Cinenovel/blob/resource-branch/Cinenovel-Preview1.0.gif)
 
