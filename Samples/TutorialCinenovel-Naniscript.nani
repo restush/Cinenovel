@@ -1,0 +1,32 @@
+@printer Dialogue
+@char Kohaku position:-0.45,-6.48 scale:0.5
+Hello there.
+We're about to show an example of a Cinenovel.
+Right now, we're using a standard Naninovel script.
+Next, we'll switch to a Cinenovel.
+@hide Dialogue wait:false
+@hide Kohaku wait:false
+@wait 1
+@cine CinenovelExample
+@wait 1
+@char Kohaku
+Yay, we've switched back to the normal script.
+@choice "Interesting!" goto:.end
+@choice "Can you play multiple Cinenovel at same time?" goto:.yes
+@stop
+
+# yes
+Yes.
+To play multiple Cinenovels at the same time, you need to set wait:false, like this:
+@print "@cine Scene1 wait:false<br>@cine Scene2 wait:false<br>@cine Scene3"
+Scene1 and Scene2 will play together.
+Notice we didn't set wait:false for Scene3, so Scene3 will wait until Scene2 is completed.
+Here is the preview:
+@cine CinenovelExample wait:false
+@cine CinenovelExample1 wait:false
+@cine CinenovelExample2 wait:true
+Important, Timeline has a Control Group, which means it has built-in sequencing to play multiple Timeline at the same time.
+
+# end
+I hope Cinenovel is helpful for you.
+@stop
